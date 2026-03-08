@@ -1,4 +1,4 @@
-#  Projeto Login 🔐
+#  Página de Login 🔐
 
 Uma interface de **tela de login responsiva** desenvolvida utilizando **HTML e CSS**, com foco em layout moderno e adaptação para diferentes tamanhos de tela.
 
