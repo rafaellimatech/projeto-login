@@ -61,6 +61,33 @@ section#login > div#imagem {
     background-position: center;
 }
 
+div#imagem {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; /* centraliza verticalmente */
+    align-items: center;     /* centraliza horizontalmente */
+    color: white;
+    text-align: center;
+}
+
+
+.texto-imagem {
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7); /* sombra no texto */
+    white-space: nowrap; /* mantém na mesma linha */
+}
+
+.texto-imagem h2 {
+    font-family: var(--fonte-login);
+    font-size: 36px;
+    margin: 0;
+}
+
+.texto-imagem p {
+    font-family: var(--fonte-login);
+    font-size: 18px;
+    margin: 0;
+}
+
 div#formulario{
     width: 50%;
     padding: 60px;
